@@ -18,6 +18,7 @@ func main() {
 	c := cors.New(cors.Options{
 		AllowedOrigins: []string{
 			"http://localhost:5173",
+			"https://calculator2-blond.vercel.app",
 		},
 		AllowedMethods: []string{
 			"GET",
